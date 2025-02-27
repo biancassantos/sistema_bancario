@@ -122,8 +122,8 @@ def listar_contas():
   print("CONTAS".center(35, "."))
   for conta in contas:
     print(f"""
-    Agência: {conta["agencia"]}\n
-    Conta: {conta["numero_conta"]}\n
+    Agência: {conta["agencia"]}
+    Conta: {conta["numero_conta"]}
     Titular: {conta["usuario"]["nome"]}""")
     print("." * 35)
 
